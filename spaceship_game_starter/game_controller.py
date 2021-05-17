@@ -91,7 +91,6 @@ class GameController:
         if self.spaceship.intact:
             # Check each obstacle for intersection
 
-            print(len(self.obstacles))
             for obstacle in self.obstacles:
                 if (obstacle.y > 610):
                     self.obstacles.remove(obstacle)
